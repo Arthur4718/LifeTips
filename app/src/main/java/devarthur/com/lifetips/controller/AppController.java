@@ -13,6 +13,7 @@ public class AppController  extends Application {
             .getSimpleName();
     private static AppController mInstance;
     private RequestQueue mRequestQueue;
+    //Creating a singleton class so we dont need to keep instiating these classes.
 
     public static synchronized AppController getmInstance() {return  mInstance; }
 
